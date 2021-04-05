@@ -1,0 +1,98 @@
+.container {
+    background-color: #f3dbb1;
+    width: 830px;
+    height: 1030px;
+}
+.css-box {
+    width: 800px;
+    height: 1010px;
+    background: #f3dbb1;
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #812424 0%, #EABE3F 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #812424 0%, #EABE3F 100%);
+    border-image: linear-gradient(to bottom, #812424 0%, #EABE3F 100%);
+    border-image-slice: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.css-img-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../../images/olivas.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.css-img-2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+
+}
+.css-img-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 100px;
+}
+.css-lyrics-1 {
+    padding-left: 100px;
+}
+.css-lyrics-3 {
+    padding-left: 100px;
+}
+.css-subtitles-1 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #812424;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.css-subtitles-2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #812424;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.css-subtitles-3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #812424;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.css-subtitles-4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #812424;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.css-subtitles-5 {
+    margin-top: 20px;
+    color: #812424;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.css-corners-1 {
+    width: 100px;
+    height: auto;
+    float: left;
+    transform: rotate(90deg);
+}
+.css-corners-2{
+    width: 100px;
+    height: auto;
+    float:right;
+    transform: rotate(180deg);
+}
+.css-corners-3{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.css-corners-4{
+    width: 100px;
+    height: auto;
+    float: right;
+    transform: rotate(270deg);
+    margin-bottom: 5%;
+}
